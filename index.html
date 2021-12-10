@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        html,
+body {
+  min-width: 290px;
+  color: #0d0d0f;
+  background-color: #ffffff;
+  font-family: 'Open Sans', Arial, sans-serif;
+  line-height: 1.5;
+}
+
+#navbar {
+  position: fixed;
+  min-width: 290px;
+  top: 0px;
+  left: 0px;
+  width: 300px;
+  height: 100%;
+  border-right: solid;
+  border-color: rgba(1, 12, 12, 0.4);
+}
+
+header {
+    
+  color: black;
+  margin: 10px;
+  text-align: center;
+  font-size: 1.8em;
+  font-weight: thin;
+}
+
+#main-doc header {
+ 
+  text-align: left;
+  margin: 0px;
+}
+
+#navbar ul {
+  height: 88%;
+  padding: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  
+}
+
+
+#navbar li {
+  color: #070913;
+  border-top: 1px solid;
+  list-style: none;
+  position: relative;
+  width: 100%;
+}
+
+#navbar a {
+  display: block;
+  padding: 10px 30px;
+  color: #090b13;
+  text-decoration: none;
+  cursor: pointer;
+  list-style: square;
+}
+
+#main-doc {
+  position: absolute;
+  margin-left: 310px;
+  padding: 20px;
+  margin-bottom: 110px;
+}
+
+
+section li {
+  margin: 15px 0px 0px 20px;
+}
+
+
+@media only screen and (max-width: 815px) {
+  /* For mobile phones: */
+  #navbar ul {
+    border: 1px solid;
+    height: 207px;
+  }
+
+
+  #main-doc {
+    position: relative;
+    margin-left: 0px;
+    margin-top: 270px;
+  }
+}
+
+
+
+    </style>
+</head>
+<body>
+    <nav id="navbar">
+        <h2 style="background-color: orange;">Javascript Basics Tutorial</h2>
+        <ul  >
+          <li ><a class="nav-link">JavaScript-Home</a></li>
+          <li>
+            <a class="nav-link">JavaScript-Overview</a
+            >
+          </li>
+          <li>
+            <a class="nav-link" >JavaScript-Syntex</a>
+          </li>
+          <li><a class="nav-link">JavaScript-Enabling</a></li>
+          <li><a class="nav-link" >JavaScript-Placement</a></li>
+          <li>
+            <a class="nav-link" >JavaScript-Variable</a>
+          </li>
+          <li><a class="nav-link">JavaScript-Operators</a></li>
+          <li><a class="nav-link" >JavaScript-if...Else</a></li>
+          <li><a class="nav-link" >JavaScript-Switch Case</a></li>
+          <li><a class="nav-link" >JavaScript-While Loop</a></li>
+          <li>
+            <a class="nav-link" >JavaScript-For Loop</a>
+          </li>
+          <li><a class="nav-link">Javascript-For...in</a></li>
+          <li>
+            <a class="nav-link" 
+              >Javascript-Loop control</a
+            >
+          </li>
+          <li><a class="nav-link" >JavaScript-Function</a></li>
+          <li><a class="nav-link" >JavaScript-Events</a></li>
+          <li><a class="nav-link" >JavaScript-Cookies</a></li>
+          <li><a class="nav-link" >JavaScript-Page Redirect</a></li>
+          <li><a class="nav-link" >JavaScript-Dialog Boxes</a></li>
+          <li><a class="nav-link" >JavaScript-Void Keyword</a></li>
+          <li><a class="nav-link" >JavaScript-Page Printing</a></li>
+        </ul>
+      </nav>
+      <main id="main-doc">
+        <section class="main-section" >
+         
+          <article  style ="font-size: 25px;">
+            <p>
+                <b>JavaScript</b> is a lightweight, interpreted<b>programming</b> language.
+                 It is designed for creating network-
+                centric applications. It is complimentary to and integrated with Java. 
+                <b>JavaScript</b> is very easy to
+                implement because it is integrated with HTML. It is open and cross-platform.
+            </p>
+          </article>
+        </section>
+        <section class="main-section" >
+          <header>Why to Learn JavaScript</header>
+          <article style ="font-size: 25px;">
+            <p><b>Javascript</b> is a MUST for students and working professionals to become a great Software Engineer
+                specially when they are working in Web Development Domain. I will list down some of the key
+                advantages of learning Javascript:</p>
+      
+            <ul style="list-style-type: square;">
+              <li >
+                 Javascript is the most popular<b> programming language </b>in the world and that makes it a
+                programmer's great choice. Once you learnt Javascript, it helps you developing great front-
+                end as well as back-end softwares using different Javascript based frameworks like jQuery,
+                Node.JS etc.
+              </li>
+              <li>Javascript is everywhere, it comes installed on every modern web browser and so to learn
+                Javascript you really do not need any special environment setup. For example Chrome,
+                Mozilla Firefox, Safari and every browser you know as of today, supports Javascript.</li>
+              <li>
+                Javascript helps you create really beautiful and crazy fast websites. You can develop your
+                website with a console like look and feel and give your users the best Graphical User
+                Experience.
+              </li>
+              <li>
+                JavaScript usage has now extended to mobile app development, desktop app development,
+                and game development. This opens many opportunities for you as Javascript Programmer.
+              </li>
+              <li>
+                Due to high demand, there is tons of job growth and high pay for those who know
+                JavaScript. You can navigate over to different job sites to see what having JavaScript skills
+                looks like in the job market.
+              </li>
+              <li>
+                Great thing about Javascript is that you will find tons of frameworks and Libraries already
+                developed which can be used directly in your software development to reduce your time to
+                
+              </li>
+            </ul>
+          </article>
+        </section>
+        </main>
+             
+
+
+        <script>
+            const projectName = 'technical-docs-page';
+        </script>
+</body>
+</html>
